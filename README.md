@@ -1,6 +1,15 @@
-# 🚀 ADBCard
+<div align="center">
+  <img src="https://github.com/rajumark/ADBCard-Releases/blob/main/adb_logo.png" 
+       width="80" 
+       alt="ADBCard Logo" 
+       style="border-radius: 20px;" />
+</div>
+
+# ADBCard : Let Us Handle the Hard Work
 
 > **The Ultimate ADB Device Management Tool** - Connect, control, and manage your Android devices with ease across Windows, macOS, and Linux.
+
+> ##### ADBCard – **The Ultimate Cross-Platform GUI** for Android Device Management. Effortlessly connect, control, and manage your Android devices on Windows, macOS, and Linux with an intuitive interface. Boost productivity with seamless ADB automation, real-time device insights, and smart management tools – perfect for developers, testers, and tech enthusiasts
 
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue.svg)](https://github.com/rajumark/ADBCard-Releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
