@@ -1,48 +1,68 @@
 <!DOCTYPE html>
-<html>
-<script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADBCard</title>
+    <style>
+        /* Remove default margins/padding */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
 
-    function call() {
-       window.open("https://github.com/rajumark/ADBCard-Releases", '_blank').focus();
-    }
+        html, body {
+          height: 100%;
+          overflow: hidden; /* Prevent scrolling */
+          font-family: 'Arial', sans-serif;
+        }
 
-</script>
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          background: linear-gradient(135deg, #f6d365, #fda085, #a1c4fd, #c2e9fb);
+          background-size: 400% 400%;
+          animation: gradientAnimation 15s ease infinite;
+          color: #fff;
+        }
 
-<style type="text/css">
-    * {margin: 0; padding: 0;}
-    #container {height: 100%; width:100%; font-size: 0;}
-    #left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
-    #left {width: 20%;  }
-    .block {
-      display: block;
-      width: 100%;
-    
-      background-color: #FEF7FF;
-      padding: 40px 0;
-      font-size: 30px;
-      cursor: pointer;
-      text-align: center;
-      color: black;
-    }
-</style>
+        @keyframes gradientAnimation {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+          font-size: 3rem;
+          margin-bottom: 2rem;
+          text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .download-btn {
+          padding: 1rem 2rem;
+          font-size: 1.5rem;
+          color: #fff;
+          background-color: rgba(0,0,0,0.3);
+          border: none;
+          border-radius: 10px;
+          cursor: pointer;
+          text-decoration: none;
+          transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+          background-color: rgba(0,0,0,0.5);
+          transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-
-<div class=frame>
-    <img src="page1.jpg" style="width:100%;"  />
-</div>
-<div class=frame>
-    <img src="page2.jpg"  style="width:100%;" />
-</div>
-<div class=frame>
-    <img src="page3.jpg"  style="width:100%;" />
-</div>
-
-<div id="container">
-    <button onclick="call()" type="button" class="block">Download</button>
-
+<div>
+    <h1>ADBCard</h1>
+    <a class="download-btn" href="https://github.com/rajumark/ADBCard-Releases" target="_blank">Download</a>
 </div>
 </body>
-
-
 </html>
