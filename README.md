@@ -8,7 +8,16 @@
 ![App Page](https://raw.githubusercontent.com/rajumark/ADBCard-Releases/main/app_page.png)
 
 ---
+## 💰 Pricing
 
+Choose the plan that fits your needs:
+
+| **Plan** | **Price** | **Validity** | **Feature** |
+|----------|-----------|--------------|------------|
+| **Free** | No cost. No login, no credit card required — just install and use | 30 days | All features unlocked and Unlimited usage |
+| **Pro**  | [Check here](https://adbcard.gumroad.com/l/pro) | 1 year | All features unlocked and Unlimited usage |
+
+---
 ## 🎯 Quick Start
 
 | **Platform** | **Download** | **Installation** |
