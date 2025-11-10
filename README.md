@@ -95,5 +95,7 @@ sudo xattr -rd com.apple.quarantine /Applications/ADBCard.app
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+![Visitor Count](https://komarev.com/ghpvc/?username=adbcard)
+
  
  
